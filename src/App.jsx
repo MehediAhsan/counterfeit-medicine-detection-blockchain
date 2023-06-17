@@ -4,6 +4,8 @@ import 'aos/dist/aos.css';
 import Header from './components/Header';
 import bgImage from './assets/bg.jpg';
 import Navbar from './components/Navbar';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './Routes/Routes';
 
 AOS.init();
 
@@ -16,8 +18,7 @@ function App() {
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
     }}>
-      <Header></Header>
-      <Navbar></Navbar>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   )
 }
