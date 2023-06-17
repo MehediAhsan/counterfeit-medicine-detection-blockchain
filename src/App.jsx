@@ -12,7 +12,7 @@ AOS.init();
 function App() {
 
   return (
-    <div className="min-h-screen"
+    <div className="min-h-screen overflow-hidden"
     style={{
       backgroundImage: `url(${bgImage})`,
       backgroundRepeat: 'no-repeat',

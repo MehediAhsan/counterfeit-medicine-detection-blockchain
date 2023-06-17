@@ -12,8 +12,7 @@ const Navbar = () => {
         <ul class="hidden md:flex px-4 mx-auto font-bold font-heading space-x-12">
           <li><Link class="hover:text-yellow-500" to='/'>Home</Link></li>
           <li><Link class="hover:text-yellow-500" to='/manufacturer'>Manufacturer</Link></li>
-          <li><Link class="hover:text-yellow-500" to='/'>Contact Us</Link></li>
-          <li><Link class="hover:text-yellow-500" to='/'>Catagory</Link></li>
+          <li><Link class="hover:text-yellow-500" to='/aboutus'>About Us</Link></li>
         </ul>
         
       </div>
