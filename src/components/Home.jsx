@@ -1,7 +1,7 @@
 
 const Home = () => {
     return (
-        <div className="text-white min-h-screen">
+        <div className=" min-h-screen">
       
 
       {/* Hero Section */}
@@ -9,7 +9,7 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div data-aos="fade-right" data-aos-duration="1000">
-              <h2 className="text-3xl font-bold">Detect Counterfeit Medicines</h2>
+              <h2 className="text-3xl font-bold text-white">Detect Counterfeit Medicines</h2>
               <p className="mt-4 text-lg text-gray-200">
                 Our advanced AI-powered system helps identify counterfeit medicines
                 to ensure the safety of consumers and protect the pharmaceutical industry.
@@ -30,11 +30,11 @@ const Home = () => {
       </section>
 
       {/* How It Works Section */}
-      <section className="bg-white py-12">
+      <section className=" py-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-800 mb-8">How It Works</h2>
+          <h2 className="text-3xl font-bold text-gray-200 mb-14">How It Works</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-6 bg-gray-200 rounded-lg text-center">
+            <div className="p-6 bg-gray-200 rounded-lg text-center border border-r-8 border-yellow-500">
               <svg className="w-10 h-10 mx-auto mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4m2-10a1 1 0 011-1h12a1 1 0 011 1v1H5V5z" />
@@ -44,7 +44,7 @@ const Home = () => {
                 Start by uploading an image of the medicine packaging or pills to be analyzed.
               </p>
             </div>
-            <div className="p-6 bg-gray-200 rounded-lg text-center">
+            <div className="p-6 bg-gray-200 rounded-lg text-center border border-r-8 border-yellow-500">
               <svg className="w-10 h-10 mx-auto mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
               </svg>
@@ -53,7 +53,7 @@ const Home = () => {
                 Our AI algorithms examine the image to detect signs of counterfeit elements.
               </p>
             </div>
-            <div className="p-6 bg-gray-200 rounded-lg text-center">
+            <div className="p-6 bg-gray-200 rounded-lg text-center border border-r-8 border-yellow-500">
               <svg className="w-10 h-10 mx-auto mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
               </svg>
