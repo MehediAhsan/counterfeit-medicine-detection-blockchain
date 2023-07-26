@@ -93,10 +93,10 @@ const Home = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="bg-blue-600 py-12">
+      <section className=" py-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Contact Us Today</h2>
-          <p className="text-lg text-white">
+          <p className="text-lg text-white mb-8">
             For inquiries or more information about our services, reach out to us.
           </p>
           <a
