@@ -1,9 +1,7 @@
-import { useState } from 'react';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Header from './components/Header';
 import bgImage from './assets/bg.jpg';
-import Navbar from './components/Navbar';
 import { RouterProvider } from 'react-router-dom';
 import { router } from './Routes/Routes';
 
