@@ -67,20 +67,20 @@ const Home = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="bg-gray-100 py-12">
+      <section className="py-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-800 mb-8">Benefits</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <h2 className="text-3xl font-bold text-gray-200 mb-8">Benefits</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
             <div>
               <img
-                className="w-full h-auto"
-                src="/benefits-image.jpg"
+                className="w-full h-auto rounded-3xl border-r-4 border-yellow-500"
+                src="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=940&q=80"
                 alt="Benefits of Counterfeit Medicine Detection"
               />
             </div>
             <div>
-              <ul className="list-disc list-inside text-gray-700">
-                <li className="mb-4">Protects Consumers' Health and Safety</li>
+              <ul className="list-disc list-inside text-gray-200 ">
+                <li className="mb-4">Protects Consumers Health and Safety</li>
                 <li className="mb-4">Preserves Brand Reputation</li>
                 <li className="mb-4">Safeguards Pharmaceutical Supply Chain</li>
                 <li className="mb-4">Compliance with Regulatory Standards</li>
