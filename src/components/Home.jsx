@@ -30,7 +30,7 @@ const Home = () => {
       </section>
 
       {/* How It Works Section */}
-      <section className=" py-12">
+      <section data-aos="fade-up" data-aos-duration="1000" className=" py-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-200 mb-14">How It Works</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -67,7 +67,7 @@ const Home = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-12">
+      <section data-aos="fade-up" data-aos-duration="1000" className="py-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-200 mb-8">Benefits</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
@@ -93,7 +93,7 @@ const Home = () => {
       </section>
 
       {/* Contact Section */}
-      <section className=" py-12">
+      <section data-aos="fade-up" data-aos-duration="1000" className=" py-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Contact Us Today</h2>
           <p className="text-lg text-white mb-8">
