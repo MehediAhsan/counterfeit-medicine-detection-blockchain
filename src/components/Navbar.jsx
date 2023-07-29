@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-            <div className="flex flex-wrap place-items-center">
+            <div data-aos="flip-up" data-aos-duration="1000" className="flex flex-wrap place-items-center">
   <section className="relative mx-auto">
       
     <nav className="flex justify-between bg-gray-100 text-black w-screen">
