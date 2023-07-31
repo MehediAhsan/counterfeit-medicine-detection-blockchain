@@ -93,7 +93,7 @@ const Home = () => {
       </section>
 
       {/* Contact Section */}
-      <section data-aos="fade-up" data-aos-duration="1000" className=" py-12  border border-yellow-500">
+      <section data-aos="fade-up" data-aos-duration="1000" className="mb-10 py-12 w-11/12 mx-auto border border-yellow-400 rounded">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Contact Us Today</h2>
           <p className="text-lg text-white mb-8">
